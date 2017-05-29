@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sova.mytestingapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".ActivityTwo"
+            android:label="@string/title_activity_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityThree"
+            android:label="@string/title_activity_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FourActivity"
+            android:label="@string/title_activity_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityFive"
+            android:label="@string/title_activity_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySix"
+            android:label="@string/title_activity_six"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySeven"
+            android:label="@string/title_activity_seven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityEight"
+            android:label="@string/title_activity_eight"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
